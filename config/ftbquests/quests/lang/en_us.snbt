@@ -1,0 +1,28 @@
+{
+	chapter.08DBE2CC80C4D6A2.title: "Fundación"
+	chapter.1FCC624C33C8A982.title: "Fundación"
+	chapter_group.1F7773D85E9BFC1C.title: "Hives and Colonies"
+	chapter_group.60C1B17C9000AE75.title: "Vida Libre"
+	quest.23316051CDABB3EB.quest_desc: ["Todo imperio comienza con una mesa de trabajo."]
+	quest.23316051CDABB3EB.title: "Mesa de Trabajo"
+	quest.23F73D15FC59C29E.quest_desc: ["La Build Tool te permite planear edificios y elegir estilos para tu colonia."]
+	quest.23F73D15FC59C29E.title: "La Build Tool"
+	quest.297C3BE5D12DAD10.quest_desc: [
+		"Has llegado a una tierra salvaje."
+		""
+		"No basta con sobrevivir."
+		"Tu meta es fundar una colonia, dominar el Source y construir una industria apícola."
+	]
+	quest.297C3BE5D12DAD10.quest_subtitle: "Bienvenido a Hives & Colonies"
+	quest.297C3BE5D12DAD10.title: "Un Nuevo Comienzo"
+	quest.4531D1138445416B.quest_desc: ["Coloca el Town Hall para reclamar el territorio de tu futura colonia."]
+	quest.4531D1138445416B.title: "El Corazón de la Colonia"
+	quest.577CB969937FE444.quest_desc: [
+		"Bienvenido a Hives & Colonies."
+		""
+		"Marca esta quest para iniciar tu aventura."
+	]
+	quest.577CB969937FE444.title: "Un Nuevo Comienzo"
+	quest.7748E61C4E1DFA7B.quest_desc: ["Antes de levantar muros, necesitas herramientas simples."]
+	quest.7748E61C4E1DFA7B.title: "Herramientas Básicas"
+}

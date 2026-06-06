@@ -1,0 +1,25 @@
+#1Tickに処理するアイテム数を指定する設定
+# Default: 1
+# Range: > 1
+filterRate = 1
+#フィルター探索を打ち切るまでの最大Tick数
+# Default: 30
+# Range: > 1
+filterTimeout = 30
+#搬送処理を一時停止する待機モードの有効/無効
+wait = false
+#デバッグ情報の出力を有効にするか
+debug = true
+#デバッグログの詳細度
+#Allowed Values: NORMAL, DETAIL, FULL
+debugDetail = "NORMAL"
+#ルート探索時の最大深さ
+# Default: 128
+# Range: > 1
+maxDepth = 128
+#ルート探索で訪れる最大ノード数
+# Default: 2000
+# Range: > 1
+maxNodes = 2000
+#隔離スロットが満杯になった際にチャットで通知するか
+isolationAlert = true

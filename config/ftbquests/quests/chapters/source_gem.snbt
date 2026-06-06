@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "source_gem"
+	group: "1F7773D85E9BFC1C"
+	icon: {
+		id: "ars_nouveau:source_gem"
+	}
+	id: "6C17F6EB30468EEE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "60D21DCC254AA0B1"
+			rewards: [
+				{
+					count: 12
+					id: "02A7D5FAB179CE3D"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "15EB15E878BB073B"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B36A4B014B05CDC"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60D21DCC254AA0B1"]
+			id: "7F41F3F140C165B6"
+			rewards: [
+				{
+					count: 2
+					id: "6A1541C70F205CB9"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "55CA451D355CDE97"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F0D27B124333A88"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F41F3F140C165B6"]
+			id: "188579CDB1932770"
+			rewards: [{
+				count: 8
+				id: "4698A0CDDE5BF233"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ADC12D6AF35E9D2"
+				item: { count: 1, id: "ars_nouveau:glyph_projectile" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["188579CDB1932770"]
+			id: "6F570E1740417D5B"
+			rewards: [
+				{
+					count: 16
+					id: "70294F205ED21205"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7E0AEFA632DFC13B"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F2AB14E44742413"
+				item: { count: 1, id: "ars_nouveau:source_jar" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+	]
+}

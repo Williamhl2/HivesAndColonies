@@ -1,0 +1,4 @@
+#タグの表示形式 0=FULL 1=END 2=SCROLL
+# Default: 0
+# Range: 0 ~ 2
+tagDisplayMode = 0

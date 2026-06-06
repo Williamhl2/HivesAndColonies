@@ -1,0 +1,35 @@
+# Minecraft / CurseForge modpack repo
+# Keep pack configuration and authored content; ignore local/runtime data.
+
+# Downloaded or generated content
+/mods/
+/downloads/
+/logs/
+/crash-reports/
+/saves/
+/screenshots/
+/shaderpacks/
+/resourcepacks/
+/xaero/
+/XaeroWaypoints_BACKUP*/
+/local/
+
+# Root-level user/runtime files
+/command_history.txt
+/options.txt
+/optionsof.txt
+/user-prefs.json
+/usercache.json
+/usernamecache.json
+/patchouli_data.json
+
+# Runtime-generated config that should stay local
+/config/aero/
+/config/jei/world/
+/config/embeddium-fingerprint.json
+/defaultconfigs/embeddium-fingerprint.json
+
+# Common archives/binaries if dropped into the repo root by mistake
+/*.jar
+/*.zip
+/*.mrpack

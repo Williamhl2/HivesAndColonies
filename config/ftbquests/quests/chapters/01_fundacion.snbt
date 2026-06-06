@@ -1,0 +1,138 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "01_fundacion"
+	group: "1F7773D85E9BFC1C"
+	icon: {
+		id: "minecolonies:blockhuttownhall"
+	}
+	id: "08DBE2CC80C4D6A2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "297C3BE5D12DAD10"
+			rewards: [
+				{
+					count: 16
+					id: "660849026135BECC"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "06ED8392CF0FED80"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72C507A4045E4655"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "23316051CDABB3EB"
+			rewards: [{
+				count: 16
+				id: "1918D54E31317A18"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52AC589BE60AF68A"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23316051CDABB3EB"]
+			id: "7748E61C4E1DFA7B"
+			rewards: [{
+				count: 32
+				id: "474B9B31F96DEE64"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5973F59481C5AB9F"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "3799B8742A10C1D2"
+					item: { count: 1, id: "minecraft:stone_axe" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "4531D1138445416B"
+			rewards: [
+				{
+					count: 32
+					id: "306DE42D6AC16C58"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0F03700FC2D885A3"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E53E0DFFF4C31EB"
+				item: { count: 1, id: "minecolonies:blockhuttownhall" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "23F73D15FC59C29E"
+			rewards: [{
+				count: 8
+				id: "270EDA01DBC0AF5D"
+				item: {
+					count: 1
+					id: "productivebees:honey_treat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E3E655EBCA497E4"
+				item: { count: 1, id: "structurize:sceptergold" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

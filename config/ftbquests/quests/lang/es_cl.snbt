@@ -1,0 +1,30 @@
+{
+	chapter.08DBE2CC80C4D6A2.title: "1. Fundación"
+	chapter.6C17F6EB30468EEE.title: "El Inicio de la Magia"
+	chapter_group.1F7773D85E9BFC1C.title: "Hives and Colonies"
+	chapter_group.60C1B17C9000AE75.title: "Vida Libre"
+	quest.188579CDB1932770.quest_subtitle: "Los glyphs son los componentes fundamentales de los hechizos.Combínalos sabiamente."
+	quest.188579CDB1932770.title: "Tu Primer Glyph"
+	quest.23316051CDABB3EB.quest_desc: ["Todo imperio comienza con una mesa de trabajo."]
+	quest.23316051CDABB3EB.title: "Mesa de Trabajo"
+	quest.23F73D15FC59C29E.quest_desc: ["La Build Tool te permite planear edificios y elegir estilos para tu colonia."]
+	quest.23F73D15FC59C29E.title: "La Build Tool"
+	quest.297C3BE5D12DAD10.quest_desc: [
+		"Has llegado a una tierra salvaje."
+		""
+		"No basta con sobrevivir."
+		"Tu meta es fundar una colonia, dominar el Source y construir una industria apícola."
+	]
+	quest.297C3BE5D12DAD10.quest_subtitle: "Bienvenido a Hives And Colonies"
+	quest.297C3BE5D12DAD10.title: "Un Nuevo Comienzo"
+	quest.4531D1138445416B.quest_desc: ["Coloca el Town Hall para reclamar el territorio de tu futura colonia."]
+	quest.4531D1138445416B.title: "El Corazón de la Colonia"
+	quest.60D21DCC254AA0B1.quest_subtitle: "El Source es la energía arcana que fluye por el mundo.Tus primeros cristales marcarán el inicio de la magia."
+	quest.60D21DCC254AA0B1.title: "Cristales de Source"
+	quest.6F570E1740417D5B.quest_subtitle: "El Source Jar permite almacenar energía mágica para usos futuros."
+	quest.6F570E1740417D5B.title: "Contener el Source"
+	quest.7748E61C4E1DFA7B.quest_desc: ["Antes de levantar muros, necesitas herramientas simples."]
+	quest.7748E61C4E1DFA7B.title: "Herramientas Básicas"
+	quest.7F41F3F140C165B6.quest_subtitle: "Los hechizos básicos te permitirán explorar,trabajar y sobrevivir con mayor facilidad."
+	quest.7F41F3F140C165B6.title: "Novice Spell Book"
+}
