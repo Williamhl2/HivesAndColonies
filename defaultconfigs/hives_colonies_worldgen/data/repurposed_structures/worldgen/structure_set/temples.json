@@ -1,0 +1,17 @@
+{
+  "_comment": "Repurposed Structures: templos de biomas variados — más raros que vanilla",
+  "structures": [
+    "repurposed_structures:temple_birch",
+    "repurposed_structures:temple_dark_forest",
+    "repurposed_structures:temple_mushroom",
+    "repurposed_structures:temple_ocean",
+    "repurposed_structures:temple_snowy",
+    "repurposed_structures:temple_swamp"
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 20,
+    "salt": 14357625
+  }
+}

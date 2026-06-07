@@ -1,0 +1,22 @@
+{
+  "_comment": "Repurposed Structures: strongholds de biomas más raros (spacing alto).",
+  "structures": [
+    "repurposed_structures:stronghold_badlands",
+    "repurposed_structures:stronghold_coral",
+    "repurposed_structures:stronghold_desert",
+    "repurposed_structures:stronghold_icy",
+    "repurposed_structures:stronghold_jungle",
+    "repurposed_structures:stronghold_mushroom",
+    "repurposed_structures:stronghold_nether",
+    "repurposed_structures:stronghold_ocean",
+    "repurposed_structures:stronghold_savanna",
+    "repurposed_structures:stronghold_swamp"
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 64,
+    "spread": 10,
+    "count": 64,
+    "preferred_biomes": "#minecraft:stronghold_biased_to"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_comment": "Repurposed Structures: aldeas bioma-específicas — reducidas ~2.5x vs vanilla",
+  "structures": [
+    "repurposed_structures:village_badlands",
+    "repurposed_structures:village_birch",
+    "repurposed_structures:village_dark_forest",
+    "repurposed_structures:village_jungle",
+    "repurposed_structures:village_mushroom",
+    "repurposed_structures:village_ocean",
+    "repurposed_structures:village_swamp"
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 15,
+    "salt": 10387316
+  }
+}

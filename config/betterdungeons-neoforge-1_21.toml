@@ -1,24 +1,14 @@
-	###########################################################################################################
-	## General settings.
-	###########################################################################################################
-	["YUNG's Better Dungeons".General]
-		# Whether or not dungeons should be allowed to place skeleton skulls and other mob heads.
-		# This option may be useful for some modpack creators.
-		# Default: true
-		#
-		"Enable Skulls & Heads" = true
-		# Some dungeons can rarely spawn Nether-related blocks such as soul sand, soul campfires, and soul lanterns.
-		# Note that the blocks will be purely decorative - nothing progression-breaking like Ancient Debris.
-		# Set this to false to prevent any Nether-related blocks from spawning in dungeons.
-		# This option may be useful for some modpack creators.
-		# Default: true
-		#
-		"Enable Nether Blocks in Dungeons" = true
+["Dungeon Options"]
+	# Whether or not dungeons should be allowed to place skeleton skulls and other mob heads.
+	# Default: true
+	"Enable Skulls & Heads" = true
+	# Default: true
+	"Enable Nether Blocks in Dungeons" = true
 
 	###########################################################################################################
 	## Zombie Dungeon settings.
 	###########################################################################################################
-	["YUNG's Better Dungeons"."Zombie Dungeons"]
+	["Dungeon Options"."Zombie Dungeons"]
 		# The longest distance that can be checked when attempting to generate a surface entrance staircase.
 		# Making this too large may cause problems.
 		# Default: 20

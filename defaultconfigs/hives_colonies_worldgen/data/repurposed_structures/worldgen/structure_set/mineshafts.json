@@ -1,0 +1,24 @@
+{
+  "_comment": "Repurposed Structures: mineshafts más raros. Default spacing ~1, separation ~0.",
+  "structures": [
+    "repurposed_structures:mineshaft_badlands",
+    "repurposed_structures:mineshaft_birch",
+    "repurposed_structures:mineshaft_dark_forest",
+    "repurposed_structures:mineshaft_desert",
+    "repurposed_structures:mineshaft_end",
+    "repurposed_structures:mineshaft_icy",
+    "repurposed_structures:mineshaft_jungle",
+    "repurposed_structures:mineshaft_mushroom",
+    "repurposed_structures:mineshaft_nether",
+    "repurposed_structures:mineshaft_ocean",
+    "repurposed_structures:mineshaft_savanna",
+    "repurposed_structures:mineshaft_swamp"
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 12,
+    "separation": 5,
+    "spread_type": "triangular",
+    "salt": 10387321
+  }
+}
