@@ -2,7 +2,7 @@
 	chapter.08DBE2CC80C4D6A2.title: "1. Fundación"
 	chapter.6C17F6EB30468EEE.title: "El Inicio de la Magia"
 	chapter.AB020000000CAFE0.title: "Primer Néctar"
-	chapter.AC030000000CAFE0.title: "Taller Colonial"
+	chapter.AD040000000CAFE0.title: "El Rito del Alma"
 	chapter_group.1F7773D85E9BFC1C.title: "Hives and Colonies"
 	chapter_group.60C1B17C9000AE75.title: "Vida Libre"
 	quest.188579CDB1932770.quest_subtitle: "Los glyphs son los componentes fundamentales de los hechizos.Combínalos sabiamente."
@@ -81,4 +81,37 @@
 	]
 	quest.AC030000000005CC.quest_subtitle: "Donde la mecánica toca la magia."
 	quest.AC030000000005CC.title: "La Cocina Alquímica"
+	quest.AD040000000001TM.quest_desc: [
+		"La muerte no es el fin en Hives & Colonies."
+		""
+		"Corail Tombstone preserva tus items en una tumba al morir."
+		"Pero recuperar tu alma tiene un coste."
+		""
+		"Primero, entiende el sistema: muere y sobrevive para comenzar."
+	]
+	quest.AD040000000001TM.quest_subtitle: "La muerte como mechanic, no como castigo."
+	quest.AD040000000001TM.title: "El Legado de los Muertos"
+	quest.AD040000000002TM.quest_desc: [
+		"El Soulbound Charm protege tus items más valiosos en la muerte."
+		""
+		"Requiere Source Gem y panales de abeja:"
+		"la magia de Ars Nouveau sella el vínculo entre el objeto y tu alma."
+	]
+	quest.AD040000000002TM.quest_subtitle: "Ata tu destino a los objetos que más importan."
+	quest.AD040000000002TM.title: "El Amuleto del Alma"
+	quest.AD040000000003TM.quest_desc: [
+		"La Tablet of Recall te permite teletransportarte a tu tumba."
+		""
+		"Un artefacto de una sola vida — úsala bien."
+	]
+	quest.AD040000000003TM.quest_subtitle: "La memoria de dónde caíste."
+	quest.AD040000000003TM.title: "Tableta del Retorno"
+	quest.AD040000000004TM.quest_desc: [
+		"La Lost Tablet es la versión avanzada de la Tablet of Recall."
+		""
+		"Más poderosa, más duradera."
+		"Solo para quienes han dominado el sistema de muerte y la magia arcana."
+	]
+	quest.AD040000000004TM.quest_subtitle: "El alma busca lo que fue suyo."
+	quest.AD040000000004TM.title: "La Tableta Perdida"
 }

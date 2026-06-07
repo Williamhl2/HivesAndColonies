@@ -1,0 +1,137 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "04_el_rito_del_alma"
+	group: "1F7773D85E9BFC1C"
+	icon: {
+		id: "corail_tombstone:soulbound_charm"
+	}
+	id: "AD040000000CAFE0"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["AB020000000002BB"]
+			id: "AD040000000001TM"
+			rewards: [
+				{
+					count: 4
+					id: "AD04000000R001TM"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "AD04000000R002TM"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AD040000000001TT"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AD040000000001TM"]
+			id: "AD040000000002TM"
+			rewards: [
+				{
+					count: 8
+					id: "AD04000000R003TM"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "AD04000000R004TM"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AD040000000002TT"
+				item: { count: 1, id: "corail_tombstone:soulbound_charm" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AD040000000002TM"]
+			id: "AD040000000003TM"
+			rewards: [
+				{
+					count: 4
+					id: "AD04000000R005TM"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "AD04000000R006TM"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AD040000000003TT"
+				item: { count: 1, id: "corail_tombstone:tablet_of_recall" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AD040000000003TM"]
+			id: "AD040000000004TM"
+			rewards: [
+				{
+					count: 2
+					id: "AD04000000R007TM"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "AD04000000R008TM"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AD040000000004TT"
+				item: { count: 1, id: "corail_tombstone:lost_tablet" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+}

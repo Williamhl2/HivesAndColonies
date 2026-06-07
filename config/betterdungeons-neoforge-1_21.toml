@@ -39,12 +39,12 @@
 		"Small Dungeon Min Chest Count" = 1
 		# The maximum number of chests that can spawn in a single small dungeon.
 		# Default: 2
-		"Small Dungeon Max Chest Count" = 2
+		"Small Dungeon Max Chest Count" = 1
 		# Whether or not Small Dungeons can rarely place ore blocks in the corners of the dungeon.
 		# If this is set to false, any ore blocks that spawn as part of a corner prop will instead be replaced with air.
 		# Default: true
 		#
-		"Allow Ore Blocks in Corners" = true
+		"Allow Ore Blocks in Corners" = false
 
 	###########################################################################################################
 	## Small Nether Dungeon settings.
