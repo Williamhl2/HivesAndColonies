@@ -6,17 +6,17 @@
 	icon: {
 		id: "create:cogwheel"
 	}
-	id: "AC030000000CAFE0"
+	id: "5FDB4580A9781E4E"
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["AB020000000002BB", "6F570E1740417D5B"]
-			id: "AC030000000001CC"
+			dependencies: ["6F570E1740417D5B"]
+			id: "1C37233970763B28"
 			rewards: [
 				{
 					count: 16
-					id: "AC03000000R001CC"
+					id: "53969F7CFF7ABE3B"
 					item: {
 						count: 1
 						id: "minecraft:andesite"
@@ -25,7 +25,7 @@
 				}
 				{
 					count: 8
-					id: "AC03000000R002CC"
+					id: "170711DC4050BD82"
 					item: {
 						count: 1
 						id: "minecraft:redstone"
@@ -35,12 +35,12 @@
 			]
 			tasks: [
 				{
-					id: "AC030000000001T1"
+					id: "7F2AEBEA2FEF3D22"
 					item: { count: 1, id: "create:shaft" }
 					type: "item"
 				}
 				{
-					id: "AC030000000001T2"
+					id: "56336E6AD7C1BF4D"
 					item: { count: 1, id: "create:cogwheel" }
 					type: "item"
 				}
@@ -49,12 +49,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["AC030000000001CC"]
-			id: "AC030000000002CC"
+			id: "451AE3890353212D"
 			rewards: [
 				{
 					count: 8
-					id: "AC03000000R003CC"
+					id: "2A39D42A56E76803"
 					item: {
 						count: 1
 						id: "minecraft:iron_ingot"
@@ -63,7 +62,7 @@
 				}
 				{
 					count: 8
-					id: "AC03000000R004CC"
+					id: "6F3AC78E5D10CC98"
 					item: {
 						count: 1
 						id: "minecraft:stone_bricks"
@@ -72,7 +71,7 @@
 				}
 			]
 			tasks: [{
-				id: "AC030000000002TT"
+				id: "72B89084112F0BA6"
 				item: { count: 1, id: "create:water_wheel" }
 				type: "item"
 			}]
@@ -80,12 +79,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["AC030000000002CC"]
-			id: "AC030000000003CC"
+			id: "76BF3720DD8DE6BF"
 			rewards: [
 				{
 					count: 8
-					id: "AC03000000R005CC"
+					id: "2A95FEF5915C2CAD"
 					item: {
 						count: 1
 						id: "minecraft:iron_ingot"
@@ -94,7 +92,7 @@
 				}
 				{
 					count: 4
-					id: "AC03000000R006CC"
+					id: "22F2E0F4FEA762E8"
 					item: {
 						count: 1
 						id: "minecraft:gold_ingot"
@@ -103,7 +101,7 @@
 				}
 			]
 			tasks: [{
-				id: "AC030000000003TT"
+				id: "16164809FE10C42D"
 				item: { count: 1, id: "create:mechanical_press" }
 				type: "item"
 			}]
@@ -111,12 +109,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["AC030000000003CC"]
-			id: "AC030000000004CC"
+			id: "242FA3AECAFEB356"
 			rewards: [
 				{
 					count: 16
-					id: "AC03000000R007CC"
+					id: "1FAF660D4F903150"
 					item: {
 						count: 1
 						id: "minecraft:wheat"
@@ -125,7 +122,7 @@
 				}
 				{
 					count: 16
-					id: "AC03000000R008CC"
+					id: "107FD212E743BB50"
 					item: {
 						count: 1
 						id: "minecraft:sugar"
@@ -134,7 +131,7 @@
 				}
 			]
 			tasks: [{
-				id: "AC030000000004TT"
+				id: "69AF90228CFB4BCF"
 				item: { count: 1, id: "create:millstone" }
 				type: "item"
 			}]
@@ -142,12 +139,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["AC030000000004CC"]
-			id: "AC030000000005CC"
+			id: "28DB2BE32977475F"
 			rewards: [
 				{
 					count: 8
-					id: "AC03000000R009CC"
+					id: "06F1BCAA0CFC3428"
 					item: {
 						count: 1
 						id: "minecraft:copper_ingot"
@@ -156,7 +152,7 @@
 				}
 				{
 					count: 4
-					id: "AC03000000R010CC"
+					id: "62EB0D404F06C968"
 					item: {
 						count: 1
 						id: "minecraft:gold_ingot"
@@ -165,7 +161,7 @@
 				}
 			]
 			tasks: [{
-				id: "AC030000000005TT"
+				id: "37DAE8ADD6158DBA"
 				item: { count: 1, id: "create:mechanical_mixer" }
 				type: "item"
 			}]

@@ -6,17 +6,17 @@
 	icon: {
 		id: "productivebees:honey_treat"
 	}
-	id: "AB020000000CAFE0"
+	id: "23EF5C169275F1B3"
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["4531D1138445416B"]
-			id: "AB020000000001BB"
+			id: "61898BA8E1AADB43"
 			rewards: [
 				{
 					count: 4
-					id: "AB02000000R001BB"
+					id: "6F5718BE60D8B5D8"
 					item: {
 						count: 1
 						id: "minecraft:honey_bottle"
@@ -25,7 +25,7 @@
 				}
 				{
 					count: 4
-					id: "AB02000000R002BB"
+					id: "682CFECB2AF4F88E"
 					item: {
 						count: 1
 						id: "minecraft:oak_sapling"
@@ -34,7 +34,7 @@
 				}
 			]
 			tasks: [{
-				id: "AB020000000001TT"
+				id: "6DEBFAE655CC231C"
 				item: { count: 1, id: "minecraft:beehive" }
 				type: "item"
 			}]
@@ -42,12 +42,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["AB020000000001BB"]
-			id: "AB020000000002BB"
+			id: "346ED63CCF1B302F"
 			rewards: [
 				{
 					count: 8
-					id: "AB02000000R003BB"
+					id: "1FFC7EAB6FDE49B5"
 					item: {
 						count: 1
 						id: "productivebees:honey_treat"
@@ -56,7 +55,7 @@
 				}
 				{
 					count: 8
-					id: "AB02000000R004BB"
+					id: "6024C3FCB14C8348"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -65,7 +64,7 @@
 				}
 			]
 			tasks: [{
-				id: "AB020000000002TT"
+				id: "7CE4219155340556"
 				item: { count: 1, id: "productivebees:honey_treat" }
 				type: "item"
 			}]
@@ -73,12 +72,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["AB020000000002BB"]
-			id: "AB020000000003BB"
+			id: "110E0A8937DD1CED"
 			rewards: [
 				{
-					count: 1
-					id: "AB02000000R005BB"
+					id: "42643CA219567339"
 					item: {
 						count: 1
 						id: "productivebees:honey_treat"
@@ -87,7 +84,7 @@
 				}
 				{
 					count: 16
-					id: "AB02000000R006BB"
+					id: "1CCA03A5C0CAD29D"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -96,20 +93,19 @@
 				}
 			]
 			tasks: [{
-				id: "AB020000000003TT"
-				item: { count: 1, id: "productivebees:configurable_bee_house" }
+				id: "1003D1DE019EEE71"
+				item: { components: { "ftbquests:missing_item": "productivebees:configurable_bee_house" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["AB020000000003BB"]
-			id: "AB020000000004BB"
+			id: "29D675115EE32AF0"
 			rewards: [
 				{
 					count: 4
-					id: "AB02000000R007BB"
+					id: "19173FEC0BD87D98"
 					item: {
 						count: 1
 						id: "minecraft:experience_bottle"
@@ -118,7 +114,7 @@
 				}
 				{
 					count: 16
-					id: "AB02000000R008BB"
+					id: "56F0CCE735062A8D"
 					item: {
 						count: 1
 						id: "minecraft:redstone"
@@ -127,7 +123,7 @@
 				}
 			]
 			tasks: [{
-				id: "AB020000000004TT"
+				id: "5B6696370D997676"
 				item: { count: 1, id: "productivebees:centrifuge" }
 				type: "item"
 			}]
@@ -135,12 +131,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["AB020000000004BB"]
-			id: "AB020000000005BB"
+			id: "2A1F6E183DE0FCE9"
 			rewards: [
 				{
 					count: 16
-					id: "AB02000000R009BB"
+					id: "7D709293FFB19C7A"
 					item: {
 						count: 1
 						id: "minecraft:copper_ingot"
@@ -149,7 +144,7 @@
 				}
 				{
 					count: 4
-					id: "AB02000000R010BB"
+					id: "2BBF8D437FAC2D82"
 					item: {
 						count: 1
 						id: "productivebees:honey_treat"
@@ -158,7 +153,7 @@
 				}
 			]
 			tasks: [{
-				id: "AB020000000005TT"
+				id: "5279B572AB36DA7F"
 				item: { count: 1, id: "productivebees:powered_centrifuge" }
 				type: "item"
 			}]
