@@ -33,7 +33,7 @@ wirelessTermBeaconLvlDim = 4
 #Value of -1 disables this feature entirely
 # Default: 0
 # Range: -1 ~ 4
-invLinkBeaconLvl = 0
+invLinkBeaconLvl = 1
 #Inventory Linking range with beacons
 #Value of 0 disables this feature entirely
 # Default: 4096

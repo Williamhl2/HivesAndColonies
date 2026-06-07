@@ -76,7 +76,7 @@
 		#Number of upgrade slots in the backpack
 		# Default: 5
 		# Range: 0 ~ 10
-		upgradeSlotCount = 5
+		upgradeSlotCount = 3
 
 	#Netherite Backpack Settings
 	[server.netheriteBackpack]
@@ -87,7 +87,7 @@
 		#Number of upgrade slots in the backpack
 		# Default: 7
 		# Range: 0 ~ 10
-		upgradeSlotCount = 7
+		upgradeSlotCount = 4
 
 	#Compacting Upgrade Settings
 	[server.compactingUpgrade]

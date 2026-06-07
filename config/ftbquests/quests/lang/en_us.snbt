@@ -1,6 +1,8 @@
 {
 	chapter.08DBE2CC80C4D6A2.title: "Fundación"
 	chapter.1FCC624C33C8A982.title: "Fundación"
+	chapter.AB020000000CAFE0.title: "Primer Néctar"
+	chapter.AC030000000CAFE0.title: "Taller Colonial"
 	chapter_group.1F7773D85E9BFC1C.title: "Hives and Colonies"
 	chapter_group.60C1B17C9000AE75.title: "Vida Libre"
 	quest.23316051CDABB3EB.quest_desc: ["Todo imperio comienza con una mesa de trabajo."]
@@ -25,4 +27,56 @@
 	quest.577CB969937FE444.title: "Un Nuevo Comienzo"
 	quest.7748E61C4E1DFA7B.quest_desc: ["Antes de levantar muros, necesitas herramientas simples."]
 	quest.7748E61C4E1DFA7B.title: "Herramientas Básicas"
+	quest.AB020000000001BB.quest_desc: ["Construye o encuentra una colmena vanilla. Las abejas serán la base de tu economía colonial."]
+	quest.AB020000000001BB.quest_subtitle: "La naturaleza produce, la colonia prospera."
+	quest.AB020000000001BB.title: "La Primera Colmena"
+	quest.AB020000000002BB.quest_desc: ["Los Honey Treats son el alimento básico de las abejas productivas."]
+	quest.AB020000000002BB.quest_subtitle: "Sin néctar no hay colmena, sin colmena no hay colonia."
+	quest.AB020000000002BB.title: "El Manjar Dorado"
+	quest.AB020000000003BB.quest_desc: [
+		"La Configurable Bee House de Productive Bees permite criar abejas especializadas."
+		""
+		"Tu economía apícola comienza aquí."
+	]
+	quest.AB020000000003BB.quest_subtitle: "La industria apícola colonial."
+	quest.AB020000000003BB.title: "La Colmena Productiva"
+	quest.AB020000000004BB.quest_desc: ["La Centrifuge procesa panales en miel, ceras y materiales valiosos."]
+	quest.AB020000000004BB.quest_subtitle: "Convierte el trabajo de las abejas en recursos."
+	quest.AB020000000004BB.title: "La Centrífuga"
+	quest.AB020000000005BB.quest_desc: [
+		"La Powered Centrifuge usa energía para procesar más rápido."
+		""
+		"Cuando la colonia y las abejas trabajen juntas, la industria florece."
+	]
+	quest.AB020000000005BB.quest_subtitle: "La economía apícola se industrializa."
+	quest.AB020000000005BB.title: "Centrífuga Industrial"
+	quest.AC030000000001CC.quest_desc: [
+		"Create es el motor industrial de tu colonia."
+		""
+		"El Shaft transmite rotación. El Cogwheel cambia velocidad."
+		"Domina estos primeros engranajes antes de construir máquinas más complejas."
+	]
+	quest.AC030000000001CC.quest_subtitle: "La revolución mecánica comienza."
+	quest.AC030000000001CC.title: "Primeros Engranajes"
+	quest.AC030000000002CC.quest_desc: ["La Water Wheel convierte la corriente de agua en energía rotacional para tus máquinas."]
+	quest.AC030000000002CC.quest_subtitle: "El río trabaja para ti."
+	quest.AC030000000002CC.title: "La Rueda de Agua"
+	quest.AC030000000003CC.quest_desc: ["La Mechanical Press aplasta materiales. Esencial para procesar minerales con eficiencia colonial."]
+	quest.AC030000000003CC.quest_subtitle: "Presión mecánica al servicio de la colonia."
+	quest.AC030000000003CC.title: "La Prensa Mecánica"
+	quest.AC030000000004CC.quest_desc: [
+		"El Millstone muele granos en harina."
+		""
+		"Conecta Create con la producción de alimentos de tu colonia."
+	]
+	quest.AC030000000004CC.quest_subtitle: "El molino que alimenta la colonia."
+	quest.AC030000000004CC.title: "El Molino Colonial"
+	quest.AC030000000005CC.quest_desc: [
+		"El Mechanical Mixer combina ingredientes con precisión alquímica."
+		""
+		"Aquí la industria de Create se une con el Source de Ars Nouveau."
+		"El cobre y el zinc mezclados producen latón — la puerta a la automatización avanzada."
+	]
+	quest.AC030000000005CC.quest_subtitle: "Donde la mecánica toca la magia."
+	quest.AC030000000005CC.title: "La Cocina Alquímica"
 }

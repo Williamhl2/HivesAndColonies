@@ -62,7 +62,7 @@
 
 [warp_portals]
 	#Enable warp portals?
-	enableWarpPortals = true
+	enableWarpPortals = false
 
 #Infinite Spells Mode
 [spell_length]

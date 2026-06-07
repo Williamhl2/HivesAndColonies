@@ -1,18 +1,33 @@
 ServerEvents.recipes(event => {
-  // Backpacks: hacer tiers altos más caros
+  // Gold Backpack: requiere honey_treat (gate de Productive Bees, Acto II-III)
+  event.remove({ output: 'sophisticatedbackpacks:gold_backpack' })
 
+  event.shaped('sophisticatedbackpacks:gold_backpack', [
+    'GGG',
+    'GBG',
+    'GHG'
+  ], {
+    G: 'minecraft:gold_ingot',
+    B: 'sophisticatedbackpacks:iron_backpack',
+    H: 'productivebees:honey_treat'
+  })
+
+  // Diamond Backpack: requiere Source Gem (gate de Ars Nouveau) + honeycomb (cruce Ars+Bees)
   event.remove({ output: 'sophisticatedbackpacks:diamond_backpack' })
-  event.remove({ output: 'sophisticatedbackpacks:netherite_backpack' })
 
   event.shaped('sophisticatedbackpacks:diamond_backpack', [
-    'DGD',
-    'GBG',
-    'DGD'
+    'DCD',
+    'GSG',
+    'DCD'
   ], {
     D: 'minecraft:diamond',
+    C: 'minecraft:honeycomb',
     G: 'ars_nouveau:source_gem',
-    B: 'sophisticatedbackpacks:gold_backpack'
+    S: 'sophisticatedbackpacks:gold_backpack'
   })
+
+  // Netherite Backpack: postgame real (Source Gem Block + netherite)
+  event.remove({ output: 'sophisticatedbackpacks:netherite_backpack' })
 
   event.shaped('sophisticatedbackpacks:netherite_backpack', [
     'NSN',
@@ -25,8 +40,7 @@ ServerEvents.recipes(event => {
     B: 'sophisticatedbackpacks:diamond_backpack'
   })
 
-  // Waystones: no tan early gratis
-
+  // Waystone: requiere Ender Pearl + Source Gem (no crafteable antes de Acto II)
   event.remove({ output: 'waystones:waystone' })
 
   event.shaped('waystones:waystone', [

@@ -3,49 +3,49 @@
 		#A value of 1 means every tick
 		# Default: 20
 		# Range: > 1
-		no_upgrade = 4
+		no_upgrade = 20
 		#The speed at which items are transferred
 		#A value of 1 means every tick
 		# Default: 15
 		# Range: > 1
-		basic = 8
+		basic = 15
 		#The speed at which items are transferred
 		#A value of 1 means every tick
 		# Default: 10
 		# Range: > 1
-		improved = 16
+		improved = 10
 		#The speed at which items are transferred
 		#A value of 1 means every tick
 		# Default: 5
 		# Range: > 1
-		advanced = 32
+		advanced = 6
 		#The speed at which items are transferred
 		#A value of 1 means every tick
 		# Default: 1
 		# Range: > 1
-		ultimate = 48
+		ultimate = 3
 
 	[item_pipe.amount]
 		#The amount of items transferred
 		# Default: 4
 		# Range: > 1
-		no_upgrade = 256
+		no_upgrade = 8
 		#The amount of items transferred
 		# Default: 8
 		# Range: > 1
-		basic = 1024
+		basic = 16
 		#The amount of items transferred
 		# Default: 16
 		# Range: > 1
-		improved = 4096
+		improved = 32
 		#The amount of items transferred
 		# Default: 32
 		# Range: > 1
-		advanced = 16384
+		advanced = 64
 		#The amount of items transferred
 		# Default: 64
 		# Range: > 1
-		ultimate = 32768
+		ultimate = 128
 
 	[fluid_pipe.amount]
 		#The amount of mB transferred each tick
