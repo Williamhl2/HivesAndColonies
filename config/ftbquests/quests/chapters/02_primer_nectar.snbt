@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "02_primer_nectar"
+	group: "1F7773D85E9BFC1C"
+	icon: {
+		id: "productivebees:honey_treat"
+	}
+	id: "AB020000000CAFE0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4531D1138445416B"]
+			id: "AB020000000001BB"
+			rewards: [
+				{
+					count: 4
+					id: "AB02000000R001BB"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "AB02000000R002BB"
+					item: {
+						count: 1
+						id: "minecraft:oak_sapling"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AB020000000001TT"
+				item: { count: 1, id: "minecraft:beehive" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AB020000000001BB"]
+			id: "AB020000000002BB"
+			rewards: [
+				{
+					count: 8
+					id: "AB02000000R003BB"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "AB02000000R004BB"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AB020000000002TT"
+				item: { count: 1, id: "productivebees:honey_treat" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AB020000000002BB"]
+			id: "AB020000000003BB"
+			rewards: [
+				{
+					count: 1
+					id: "AB02000000R005BB"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "AB02000000R006BB"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AB020000000003TT"
+				item: { count: 1, id: "productivebees:configurable_bee_house" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AB020000000003BB"]
+			id: "AB020000000004BB"
+			rewards: [
+				{
+					count: 4
+					id: "AB02000000R007BB"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "AB02000000R008BB"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AB020000000004TT"
+				item: { count: 1, id: "productivebees:centrifuge" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AB020000000004BB"]
+			id: "AB020000000005BB"
+			rewards: [
+				{
+					count: 16
+					id: "AB02000000R009BB"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "AB02000000R010BB"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AB020000000005TT"
+				item: { count: 1, id: "productivebees:powered_centrifuge" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}
