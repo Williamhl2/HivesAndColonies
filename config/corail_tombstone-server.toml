@@ -1,0 +1,101 @@
+# Corail Tombstone - Servidor / Server Config
+# Hives & Colonies balance: tumbas son recompensa de exploracion, no loot facil
+# Generacion de estructuras MUY RARA para no romper la progresion de la colonia
+
+[general]
+	# Tiempo en ticks hasta que la tumba desaparece. 0 = nunca.
+	# Modpack guidado = tumbas permanentes, items no se pierden
+	# Default: 0
+	graveDecayTime = 0
+
+	# Mostrar camino de particulas hacia la tumba
+	# Default: true
+	enableSoulPath = true
+
+	# Duracion del camino de particulas en segundos
+	# Default: 300
+	soulPathDuration = 600
+
+	# Aparicion fantasmal del jugador muerto
+	# Default: true
+	enableGhostReveal = true
+
+	# Slots de soulbound disponibles por defecto (items que no van a la tumba)
+	# 0 = el jugador tiene que aprender soulbound via el sistema de conocimiento
+	# Default: 0
+	defaultSoulboundSlots = 0
+
+	# Permitir que la tumba se coloque en cualquier bloque
+	# Default: false
+	enableForcedGravePlacement = false
+
+[soul_recovery]
+	# Habilitar sistema de recuperacion de alma
+	# Default: true
+	enableSoulRecovery = true
+
+	# Coste en niveles de experiencia para recuperar el alma de la tumba
+	# 5 niveles = coste real pero no prohibitivo
+	# Default: 3
+	soulRecoveryCostLevel = 5
+
+	# Habilitar los puntos de conocimiento (desbloqueos progresivos)
+	# Default: true
+	enableKnowledgeSystem = true
+
+	# Puntos de conocimiento iniciales
+	# 0 = el jugador parte sin desbloqueos, los gana con el tiempo
+	# Default: 0
+	startingKnowledgePoints = 0
+
+	# Puntos de conocimiento ganados por muerte
+	# 3 = progresion gradual, no inmediata
+	# Default: 5
+	knowledgePointsPerDeath = 3
+
+[structures]
+	# ============================================================
+	# ESTRUCTURAS MUY RARAS — no queremos loot facil en el mapa
+	# El jugador debe construir su civilizacion, no encontrarla
+	# ============================================================
+
+	# Generar cementerios en el mundo
+	# Default: true
+	generateGraveyard = true
+
+	# Distancia en chunks entre cementerios
+	# 128 = muy raro, se puede explorar varios dias sin encontrar uno
+	# Default: 32
+	graveyardSpacing = 128
+
+	# Generar ruinas de tumbas antiguas
+	# Default: true
+	generateRuins = true
+
+	# Distancia en chunks entre ruinas
+	# Default: 24
+	ruinsSpacing = 96
+
+	# Colocar tabletas de recall en estructuras vanilla (dungeons, templos, etc.)
+	# false = la tableta es un item que se crafteea, no se encuentra gratis
+	# Default: true
+	enableTabletInVanillaStructures = false
+
+	# Colocar tabletas en estructuras de mods
+	# Default: true
+	enableTabletInModStructures = false
+
+[soul_particles]
+	# Color de las particulas de alma (tematica apicola/colonial)
+	# Default: true
+	enableSoulParticles = true
+
+[integration]
+	# Compatibilidad con MineColonies:
+	# Los ciudadanos no activan el sistema de tumbas (solo el jugador)
+	# Default: true
+	excludeCitizensFromGraveSystem = true
+
+	# Compatibilidad con FTB Teams
+	# Default: true
+	enableTeamGraveAccess = true

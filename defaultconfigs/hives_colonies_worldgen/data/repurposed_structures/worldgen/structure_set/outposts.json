@@ -1,0 +1,22 @@
+{
+  "_comment": "Repurposed Structures: outposts de biomas — más raros que el vanilla",
+  "structures": [
+    "repurposed_structures:outpost_badlands",
+    "repurposed_structures:outpost_birch",
+    "repurposed_structures:outpost_dark_forest",
+    "repurposed_structures:outpost_giant_tree_taiga",
+    "repurposed_structures:outpost_jungle",
+    "repurposed_structures:outpost_mushroom",
+    "repurposed_structures:outpost_nether_crimson",
+    "repurposed_structures:outpost_nether_warped",
+    "repurposed_structures:outpost_ocean",
+    "repurposed_structures:outpost_snowy",
+    "repurposed_structures:outpost_swamp"
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 50,
+    "separation": 18,
+    "salt": 165745300
+  }
+}

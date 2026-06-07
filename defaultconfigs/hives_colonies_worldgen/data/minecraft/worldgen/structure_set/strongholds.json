@@ -1,0 +1,12 @@
+{
+  "structures": [
+    "minecraft:stronghold"
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 48,
+    "spread": 8,
+    "count": 128,
+    "preferred_biomes": "#minecraft:stronghold_biased_to"
+  }
+}

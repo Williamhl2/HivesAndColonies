@@ -1,24 +1,14 @@
-	###########################################################################################################
-	## General settings.
-	###########################################################################################################
-	["YUNG's Better Dungeons".General]
-		# Whether or not dungeons should be allowed to place skeleton skulls and other mob heads.
-		# This option may be useful for some modpack creators.
-		# Default: true
-		#
-		"Enable Skulls & Heads" = true
-		# Some dungeons can rarely spawn Nether-related blocks such as soul sand, soul campfires, and soul lanterns.
-		# Note that the blocks will be purely decorative - nothing progression-breaking like Ancient Debris.
-		# Set this to false to prevent any Nether-related blocks from spawning in dungeons.
-		# This option may be useful for some modpack creators.
-		# Default: true
-		#
-		"Enable Nether Blocks in Dungeons" = true
+["Dungeon Options"]
+	# Whether or not dungeons should be allowed to place skeleton skulls and other mob heads.
+	# Default: true
+	"Enable Skulls & Heads" = true
+	# Default: true
+	"Enable Nether Blocks in Dungeons" = true
 
 	###########################################################################################################
 	## Zombie Dungeon settings.
 	###########################################################################################################
-	["YUNG's Better Dungeons"."Zombie Dungeons"]
+	["Dungeon Options"."Zombie Dungeons"]
 		# The longest distance that can be checked when attempting to generate a surface entrance staircase.
 		# Making this too large may cause problems.
 		# Default: 20
@@ -39,12 +29,12 @@
 		"Small Dungeon Min Chest Count" = 1
 		# The maximum number of chests that can spawn in a single small dungeon.
 		# Default: 2
-		"Small Dungeon Max Chest Count" = 2
+		"Small Dungeon Max Chest Count" = 1
 		# Whether or not Small Dungeons can rarely place ore blocks in the corners of the dungeon.
 		# If this is set to false, any ore blocks that spawn as part of a corner prop will instead be replaced with air.
 		# Default: true
 		#
-		"Allow Ore Blocks in Corners" = true
+		"Allow Ore Blocks in Corners" = false
 
 	###########################################################################################################
 	## Small Nether Dungeon settings.

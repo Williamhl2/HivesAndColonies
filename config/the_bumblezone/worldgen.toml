@@ -3,10 +3,11 @@
 	#
 	# How rare Bee Dungeons are. Higher numbers means more rare.
 	# Default rate is 1. Setting to 1001 will disable Bee Dungeons.
+	# 8 = ~8x más raro que el default — Bumblezone es late-game
 	#
 	# Default: 1
 	# Range: 1 ~ 1001
-	beeDungeonRarity = 1
+	beeDungeonRarity = 8
 	#----------------------------
 	#
 	# How rare Tree Dungeons are. Higher numbers means more rare.
@@ -14,7 +15,7 @@
 	#
 	# Default: 2
 	# Range: 1 ~ 1001
-	treeDungeonRarity = 2
+	treeDungeonRarity = 8
 	#----------------------------
 	#
 	# How rare Spider Infested Bee Dungeons are. Higher numbers means more rare.
@@ -22,7 +23,7 @@
 	#
 	# Default: 5
 	# Range: 1 ~ 1001
-	spiderInfestedBeeDungeonRarity = 5
+	spiderInfestedBeeDungeonRarity = 15
 	#----------------------------
 	#
 	# How rare are Spider/Cave Spider Spawners in Spider Infested Bee Dungeons.
