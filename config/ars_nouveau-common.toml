@@ -20,7 +20,7 @@
 	defenderHuntsAnimals = false
 	#Should the Wilden Chimera dive bomb destroy blocks?
 	destructiveDiveBomb = true
-	#Archwood forest spawn weight — reducido para que sea hallazgo, no bioma común
+	#Archwood forest spawn weight
 	# Default: 2
 	# Range: > 0
 	archwoodForest = 1
@@ -60,7 +60,6 @@
 #Items
 [item]
 	#Spawn Caster Tomes in Dungeon Loot?
-	# Desactivado: el progreso de Ars se gana crafteando, no encontrando tomes gratis
 	spawnTomes = false
 	#How much mana the Ring of Jumping consumes per jump
 	# Default: 30

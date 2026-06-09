@@ -3,7 +3,6 @@
 	#
 	# How rare Bee Dungeons are. Higher numbers means more rare.
 	# Default rate is 1. Setting to 1001 will disable Bee Dungeons.
-	# 8 = ~8x más raro que el default — Bumblezone es late-game
 	#
 	# Default: 1
 	# Range: 1 ~ 1001

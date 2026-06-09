@@ -4,14 +4,20 @@
 	filename: "03_taller_colonial"
 	group: "1F7773D85E9BFC1C"
 	icon: {
-		id: "create:cogwheel"
+		components: {
+			"ftbquests:missing_item": "create:cogwheel"
+		}
+		id: "ftbquests:missing_item"
 	}
 	id: "5FDB4580A9781E4E"
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6F570E1740417D5B", "346ED63CCF1B302F"]
+			dependencies: [
+				"6F570E1740417D5B"
+				"346ED63CCF1B302F"
+			]
 			id: "1C37233970763B28"
 			rewards: [
 				{
@@ -36,12 +42,12 @@
 			tasks: [
 				{
 					id: "7F2AEBEA2FEF3D22"
-					item: { count: 1, id: "create:shaft" }
+					item: { components: { "ftbquests:missing_item": "create:shaft" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "56336E6AD7C1BF4D"
-					item: { count: 1, id: "create:cogwheel" }
+					item: { components: { "ftbquests:missing_item": "create:cogwheel" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -72,7 +78,7 @@
 			]
 			tasks: [{
 				id: "72B89084112F0BA6"
-				item: { count: 1, id: "create:water_wheel" }
+				item: { components: { "ftbquests:missing_item": "create:water_wheel" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -102,7 +108,7 @@
 			]
 			tasks: [{
 				id: "16164809FE10C42D"
-				item: { count: 1, id: "create:mechanical_press" }
+				item: { components: { "ftbquests:missing_item": "create:mechanical_press" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -132,7 +138,7 @@
 			]
 			tasks: [{
 				id: "69AF90228CFB4BCF"
-				item: { count: 1, id: "create:millstone" }
+				item: { components: { "ftbquests:missing_item": "create:millstone" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -162,7 +168,7 @@
 			]
 			tasks: [{
 				id: "37DAE8ADD6158DBA"
-				item: { count: 1, id: "create:mechanical_mixer" }
+				item: { components: { "ftbquests:missing_item": "create:mechanical_mixer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.0d

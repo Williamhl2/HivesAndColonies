@@ -4,19 +4,22 @@
 	filename: "04_el_rito_del_alma"
 	group: "1F7773D85E9BFC1C"
 	icon: {
-		id: "corail_tombstone:soulbound_charm"
+		components: {
+			"ftbquests:missing_item": "corail_tombstone:soulbound_charm"
+		}
+		id: "ftbquests:missing_item"
 	}
-	id: "AD040000000CAFE0"
+	id: "5B5DAC15EDFB42CA"
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["346ED63CCF1B302F"]
-			id: "AD040000000001TM"
+			id: "56C7061006B6E635"
 			rewards: [
 				{
 					count: 4
-					id: "AD04000000R001TM"
+					id: "51A965B62DBDBE99"
 					item: {
 						count: 1
 						id: "minecraft:bone"
@@ -25,7 +28,7 @@
 				}
 				{
 					count: 8
-					id: "AD04000000R002TM"
+					id: "276313F37CBCEDB7"
 					item: {
 						count: 1
 						id: "minecraft:string"
@@ -34,19 +37,18 @@
 				}
 			]
 			tasks: [{
-				id: "AD040000000001TT"
+				id: "11D67ACA0AB202E3"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["AD040000000001TM"]
-			id: "AD040000000002TM"
+			id: "33400061D1EB198A"
 			rewards: [
 				{
 					count: 8
-					id: "AD04000000R003TM"
+					id: "394CA928EED0D417"
 					item: {
 						count: 1
 						id: "minecraft:paper"
@@ -55,7 +57,7 @@
 				}
 				{
 					count: 4
-					id: "AD04000000R004TM"
+					id: "3045794F226D37CF"
 					item: {
 						count: 1
 						id: "ars_nouveau:source_gem"
@@ -64,20 +66,19 @@
 				}
 			]
 			tasks: [{
-				id: "AD040000000002TT"
-				item: { count: 1, id: "corail_tombstone:soulbound_charm" }
+				id: "6556FD51F48D7FAE"
+				item: { components: { "ftbquests:missing_item": "corail_tombstone:soulbound_charm" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["AD040000000002TM"]
-			id: "AD040000000003TM"
+			id: "53FC37A471319081"
 			rewards: [
 				{
 					count: 4
-					id: "AD04000000R005TM"
+					id: "51ACB967E628305F"
 					item: {
 						count: 1
 						id: "minecraft:ender_pearl"
@@ -86,7 +87,7 @@
 				}
 				{
 					count: 16
-					id: "AD04000000R006TM"
+					id: "2301551D127F9178"
 					item: {
 						count: 1
 						id: "minecraft:paper"
@@ -95,20 +96,19 @@
 				}
 			]
 			tasks: [{
-				id: "AD040000000003TT"
-				item: { count: 1, id: "corail_tombstone:tablet_of_recall" }
+				id: "0D4C933F6A9F5E7D"
+				item: { components: { "ftbquests:missing_item": "corail_tombstone:tablet_of_recall" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["AD040000000003TM"]
-			id: "AD040000000004TM"
+			id: "3C98A4B320A36FB2"
 			rewards: [
 				{
 					count: 2
-					id: "AD04000000R007TM"
+					id: "7C6898454FFADC35"
 					item: {
 						count: 1
 						id: "ars_nouveau:source_gem"
@@ -117,7 +117,7 @@
 				}
 				{
 					count: 4
-					id: "AD04000000R008TM"
+					id: "76865DCAB1CAE5EE"
 					item: {
 						count: 1
 						id: "minecraft:diamond"
@@ -126,8 +126,8 @@
 				}
 			]
 			tasks: [{
-				id: "AD040000000004TT"
-				item: { count: 1, id: "corail_tombstone:lost_tablet" }
+				id: "405D6253ED7FD2F8"
+				item: { components: { "ftbquests:missing_item": "corail_tombstone:lost_tablet" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.5d
