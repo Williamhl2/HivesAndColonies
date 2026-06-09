@@ -44,7 +44,7 @@
 	nameGenerationPresets = []
 	#Set to REGULAR to have waystones spawn in some villages. Set to FREQUENT to have waystones spawn in most villages. Set to DISABLED to disable waystone generation in villages. Waystones will only spawn in vanilla or supported villages.
 	#Allowed Values: DISABLED, REGULAR, FREQUENT
-	spawnInVillages = "DISABLED"
+	spawnInVillages = "REGULAR"
 
 [teleports]
 	#Set to false to simply disable all xp costs. See warpRequirements for more fine-grained control.

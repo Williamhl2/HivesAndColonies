@@ -1,0 +1,4 @@
+[early_access]
+	#Enables spawn eggs and related creative-tab content for non-Polen characters.
+	#Set this to true only when you explicitly want early testing access to Befsh, Luna, Vanilla, Noia and Noris.
+	enable_secondary_character_spawn_eggs = false

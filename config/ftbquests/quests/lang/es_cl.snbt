@@ -1,8 +1,8 @@
 {
 	chapter.08DBE2CC80C4D6A2.title: "1. Fundación"
 	chapter.6C17F6EB30468EEE.title: "El Inicio de la Magia"
-	chapter.AB020000000CAFE0.title: "Primer Néctar"
-	chapter.AD040000000CAFE0.title: "El Rito del Alma"
+	chapter.23EF5C169275F1B3.title: "Primer Néctar"
+	chapter.5B5DAC15EDFB42CA.title: "El Rito del Alma"
 	chapter_group.1F7773D85E9BFC1C.title: "Hives and Colonies"
 	chapter_group.60C1B17C9000AE75.title: "Vida Libre"
 	quest.188579CDB1932770.quest_subtitle: "Los glyphs son los componentes fundamentales de los hechizos.Combínalos sabiamente."
@@ -29,59 +29,30 @@
 	quest.7748E61C4E1DFA7B.title: "Herramientas Básicas"
 	quest.7F41F3F140C165B6.quest_subtitle: "Los hechizos básicos te permitirán explorar,trabajar y sobrevivir con mayor facilidad."
 	quest.7F41F3F140C165B6.title: "Novice Spell Book"
-	quest.AB020000000001BB.quest_desc: ["Construye o encuentra una colmena vanilla. Las abejas serán la base de tu economía colonial."]
-	quest.AB020000000001BB.quest_subtitle: "La naturaleza produce, la colonia prospera."
-	quest.AB020000000001BB.title: "La Primera Colmena"
-	quest.AB020000000002BB.quest_desc: ["Los Honey Treats son el alimento básico de las abejas productivas."]
-	quest.AB020000000002BB.quest_subtitle: "Sin néctar no hay colmena, sin colmena no hay colonia."
-	quest.AB020000000002BB.title: "El Manjar Dorado"
-	quest.AB020000000003BB.quest_desc: [
+	quest.61898BA8E1AADB43.quest_desc: ["Construye o encuentra una colmena vanilla. Las abejas serán la base de tu economía colonial."]
+	quest.61898BA8E1AADB43.quest_subtitle: "La naturaleza produce, la colonia prospera."
+	quest.61898BA8E1AADB43.title: "La Primera Colmena"
+	quest.346ED63CCF1B302F.quest_desc: ["Los Honey Treats son el alimento básico de las abejas productivas."]
+	quest.346ED63CCF1B302F.quest_subtitle: "Sin néctar no hay colmena, sin colmena no hay colonia."
+	quest.346ED63CCF1B302F.title: "El Manjar Dorado"
+	quest.110E0A8937DD1CED.quest_desc: [
 		"La Configurable Bee House de Productive Bees permite criar abejas especializadas."
 		""
 		"Tu economía apícola comienza aquí."
 	]
-	quest.AB020000000003BB.quest_subtitle: "La industria apícola colonial."
-	quest.AB020000000003BB.title: "La Colmena Productiva"
-	quest.AB020000000004BB.quest_desc: ["La Centrifuge procesa panales en miel, ceras y materiales valiosos."]
-	quest.AB020000000004BB.quest_subtitle: "Convierte el trabajo de las abejas en recursos."
-	quest.AB020000000004BB.title: "La Centrífuga"
-	quest.AB020000000005BB.quest_desc: [
+	quest.110E0A8937DD1CED.quest_subtitle: "La industria apícola colonial."
+	quest.110E0A8937DD1CED.title: "La Colmena Productiva"
+	quest.29D675115EE32AF0.quest_desc: ["La Centrifuge procesa panales en miel, ceras y materiales valiosos."]
+	quest.29D675115EE32AF0.quest_subtitle: "Convierte el trabajo de las abejas en recursos."
+	quest.29D675115EE32AF0.title: "La Centrífuga"
+	quest.2A1F6E183DE0FCE9.quest_desc: [
 		"La Powered Centrifuge usa energía para procesar más rápido."
 		""
 		"Cuando la colonia y las abejas trabajen juntas, la industria florece."
 	]
-	quest.AB020000000005BB.quest_subtitle: "La economía apícola se industrializa."
-	quest.AB020000000005BB.title: "Centrífuga Industrial"
-	quest.AC030000000001CC.quest_desc: [
-		"Create es el motor industrial de tu colonia."
-		""
-		"El Shaft transmite rotación. El Cogwheel cambia velocidad."
-		"Domina estos primeros engranajes antes de construir máquinas más complejas."
-	]
-	quest.AC030000000001CC.quest_subtitle: "La revolución mecánica comienza."
-	quest.AC030000000001CC.title: "Primeros Engranajes"
-	quest.AC030000000002CC.quest_desc: ["La Water Wheel convierte la corriente de agua en energía rotacional para tus máquinas."]
-	quest.AC030000000002CC.quest_subtitle: "El río trabaja para ti."
-	quest.AC030000000002CC.title: "La Rueda de Agua"
-	quest.AC030000000003CC.quest_desc: ["La Mechanical Press aplasta materiales. Esencial para procesar minerales con eficiencia colonial."]
-	quest.AC030000000003CC.quest_subtitle: "Presión mecánica al servicio de la colonia."
-	quest.AC030000000003CC.title: "La Prensa Mecánica"
-	quest.AC030000000004CC.quest_desc: [
-		"El Millstone muele granos en harina."
-		""
-		"Conecta Create con la producción de alimentos de tu colonia."
-	]
-	quest.AC030000000004CC.quest_subtitle: "El molino que alimenta la colonia."
-	quest.AC030000000004CC.title: "El Molino Colonial"
-	quest.AC030000000005CC.quest_desc: [
-		"El Mechanical Mixer combina ingredientes con precisión alquímica."
-		""
-		"Aquí la industria de Create se une con el Source de Ars Nouveau."
-		"El cobre y el zinc mezclados producen latón — la puerta a la automatización avanzada."
-	]
-	quest.AC030000000005CC.quest_subtitle: "Donde la mecánica toca la magia."
-	quest.AC030000000005CC.title: "La Cocina Alquímica"
-	quest.AD040000000001TM.quest_desc: [
+	quest.2A1F6E183DE0FCE9.quest_subtitle: "La economía apícola se industrializa."
+	quest.2A1F6E183DE0FCE9.title: "Centrífuga Industrial"
+	quest.56C7061006B6E635.quest_desc: [
 		"La muerte no es el fin en Hives & Colonies."
 		""
 		"Corail Tombstone preserva tus items en una tumba al morir."
@@ -89,29 +60,29 @@
 		""
 		"Primero, entiende el sistema: muere y sobrevive para comenzar."
 	]
-	quest.AD040000000001TM.quest_subtitle: "La muerte como mechanic, no como castigo."
-	quest.AD040000000001TM.title: "El Legado de los Muertos"
-	quest.AD040000000002TM.quest_desc: [
+	quest.56C7061006B6E635.quest_subtitle: "La muerte como mechanic, no como castigo."
+	quest.56C7061006B6E635.title: "El Legado de los Muertos"
+	quest.33400061D1EB198A.quest_desc: [
 		"El Soulbound Charm protege tus items más valiosos en la muerte."
 		""
 		"Requiere Source Gem y panales de abeja:"
 		"la magia de Ars Nouveau sella el vínculo entre el objeto y tu alma."
 	]
-	quest.AD040000000002TM.quest_subtitle: "Ata tu destino a los objetos que más importan."
-	quest.AD040000000002TM.title: "El Amuleto del Alma"
-	quest.AD040000000003TM.quest_desc: [
+	quest.33400061D1EB198A.quest_subtitle: "Ata tu destino a los objetos que más importan."
+	quest.33400061D1EB198A.title: "El Amuleto del Alma"
+	quest.53FC37A471319081.quest_desc: [
 		"La Tablet of Recall te permite teletransportarte a tu tumba."
 		""
 		"Un artefacto de una sola vida — úsala bien."
 	]
-	quest.AD040000000003TM.quest_subtitle: "La memoria de dónde caíste."
-	quest.AD040000000003TM.title: "Tableta del Retorno"
-	quest.AD040000000004TM.quest_desc: [
+	quest.53FC37A471319081.quest_subtitle: "La memoria de dónde caíste."
+	quest.53FC37A471319081.title: "Tableta del Retorno"
+	quest.3C98A4B320A36FB2.quest_desc: [
 		"La Lost Tablet es la versión avanzada de la Tablet of Recall."
 		""
 		"Más poderosa, más duradera."
 		"Solo para quienes han dominado el sistema de muerte y la magia arcana."
 	]
-	quest.AD040000000004TM.quest_subtitle: "El alma busca lo que fue suyo."
-	quest.AD040000000004TM.title: "La Tableta Perdida"
+	quest.3C98A4B320A36FB2.quest_subtitle: "El alma busca lo que fue suyo."
+	quest.3C98A4B320A36FB2.title: "La Tableta Perdida"
 }
