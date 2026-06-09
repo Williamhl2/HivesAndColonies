@@ -147,80 +147,80 @@
 	#Probability for a nest to generate in the world given it's conditions. Nest will still be craftable and attract bees when placed in the world.
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
-	stone_nest = 0.1
+	stone_nest = 0.03
 	# Default: 0.6
 	# Range: 0.0 ~ 1.0
-	coarse_dirt_nest = 0.6
+	coarse_dirt_nest = 0.12
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
-	sand_nest = 0.1
+	sand_nest = 0.03
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
-	snow_nest = 0.1
+	snow_nest = 0.03
 	# Default: 0.15
 	# Range: 0.0 ~ 1.0
-	gravel_nest = 0.15
+	gravel_nest = 0.04
 	# Default: 0.4
 	# Range: 0.0 ~ 1.0
-	sugar_cane_nest = 0.4
+	sugar_cane_nest = 0.08
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
-	slimy_nest = 0.1
+	slimy_nest = 0.03
 	# Default: 0.9
 	# Range: 0.0 ~ 1.0
-	glowstone_nest = 0.35
+	glowstone_nest = 0.08
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
-	soul_sand_nest = 0.1
+	soul_sand_nest = 0.03
 	# Default: 0.2
 	# Range: 0.0 ~ 1.0
-	nether_quartz_nest = 0.2
+	nether_quartz_nest = 0.05
 	# Default: 0.9
 	# Range: 0.0 ~ 1.0
-	nether_brick_nest = 0.3
+	nether_brick_nest = 0.07
 	# Default: 0.15
 	# Range: 0.0 ~ 1.0
-	end_stone_nest = 0.15
+	end_stone_nest = 0.04
 	# Default: 1.0
 	# Range: 0.0 ~ 1.0
-	obsidian_nest = 0.2
+	obsidian_nest = 0.05
 	# Default: 0.02
 	# Range: 0.0 ~ 1.0
-	bumble_bee_nest = 0.02
+	bumble_bee_nest = 0.01
 	# Default: 0.15
 	# Range: 0.0 ~ 1.0
-	oak_wood_nest = 0.15
+	oak_wood_nest = 0.04
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
-	spruce_wood_nest = 0.05
+	spruce_wood_nest = 0.02
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
-	dark_oak_wood_nest = 0.05
+	dark_oak_wood_nest = 0.02
 	# Default: 0.2
 	# Range: 0.0 ~ 1.0
-	birch_wood_nest = 0.2
+	birch_wood_nest = 0.05
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
-	jungle_wood_nest = 0.1
+	jungle_wood_nest = 0.03
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
-	acacia_wood_nest = 0.05
+	acacia_wood_nest = 0.02
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
-	cherry_wood_nest = 0.05
+	cherry_wood_nest = 0.02
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
-	mangrove_wood_nest = 0.05
+	mangrove_wood_nest = 0.02
 	# Default: 0.02
 	# Range: 0.0 ~ 1.0
-	nether_bee_nest = 0.02
+	nether_bee_nest = 0.01
 	# Default: 0.02
 	# Range: 0.0 ~ 1.0
-	sugarbag_nest = 0.02
+	sugarbag_nest = 0.01
 	#Chance for a nest to spawn when growing a tree or fungus.
 	# Default: 0.02
 	# Range: 0.0 ~ 1.0
-	treeGrowNestChance = 0.02
+	treeGrowNestChance = 0.005
 
 ["Hive Upgrades"]
 	#Time bonus gained from time upgrade. 0.2 means 20% reduction of a bee's time inside the hive or centrifuge processing time.

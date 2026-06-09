@@ -37,7 +37,7 @@
 	#How many channels must occur before a drygmy produces loot
 	# Default: 20
 	# Range: 0 ~ 300
-	drygmyMaxProgress = 20
+	drygmyMaxProgress = 35
 	#Bonus number of items a drygmy produces per unique mob
 	# Default: 2
 	# Range: 0 ~ 300

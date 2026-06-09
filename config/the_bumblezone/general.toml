@@ -206,7 +206,7 @@
 	#
 	# Default: 40
 	# Range: 0 ~ 1000
-	broodBlocksBeeSpawnCapacity = 40
+	broodBlocksBeeSpawnCapacity = 15
 	#----------------------------
 	#
 	# Whether Pile of Pollen should spread fire super quickly to burn away huge swathes of pollen.
